@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дневник - Мой Сайт</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+    <div class="logo"></div>
+    <h1>Ким Олег Николаевич</h1>
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Главная</a></li>
+                <li><a href="projects.html">Проекты</a></li>
+                <li><a href="diary.html" class="active">Дневник</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="diary-container">
+            <h2>Мой учебный прогресс</h2>
+            
+            <div class="diary-content">
+                <div class="progress-section">
+                    <div class="progress-timeline">
+                        <div class="timeline-item completed">
+                            <div class="timeline-date">15 дек</div>
+                            <div class="timeline-content">
+                                <span class="timeline-title">Верстка макета сайта</span>
+                                <span class="timeline-status">✓</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item completed">
+                            <div class="timeline-date">10 дек</div>
+                            <div class="timeline-content">
+                                <span class="timeline-title">JavaScript основы</span>
+                                <span class="timeline-status">✓</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item not-completed">
+                            <div class="timeline-date">05 дек</div>
+                            <div class="timeline-content">
+                                <span class="timeline-title">Работа с формами</span>
+                                <span class="timeline-status">✗</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item not-completed">
+                            <div class="timeline-date">01 дек</div>
+                            <div class="timeline-content">
+                                <span class="timeline-title">Адаптивный дизайн</span>
+                                <span class="timeline-status">✗</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="courses-section">
+                    <h3>Текущие курсы</h3>
+                    <div class="courses-list">
+                        <div class="course-item">
+                            <span class="course-name">Веб-разработка</span>
+                            <div class="course-progress">
+                                <div class="course-bar">
+                                    <div class="course-progress-fill" style="width: 98%"></div>
+                                </div>
+                                <span class="course-percent">98%</span>
+                            </div>
+                        </div>
+                        <div class="course-item">
+                            <span class="course-name">JavaScript</span>
+                            <div class="course-progress">
+                                <div class="course-bar">
+                                    <div class="course-progress-fill" style="width: 70%"></div>
+                                </div>
+                                <span class="course-percent">70%</span>
+                            </div>
+                        </div>
+                        <div class="course-item">
+                            <span class="course-name">React</span>
+                            <div class="course-progress">
+                                <div class="course-bar">
+                                    <div class="course-progress-fill" style="width: 50%"></div>
+                                </div>
+                                <span class="course-percent">50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="add-entry-btn">[Добавить запись]</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Контакты</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
